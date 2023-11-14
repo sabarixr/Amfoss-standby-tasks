@@ -13,10 +13,10 @@ Answer :
 	* is an operator.
 	'hello' is a string.
 	-88.8 float value.
-	- subraction operation.
-	/ is divison operator.
+	- subtraction operation.
+	/ is division operator.
 	+ this is addition operator.
-	5 is an interger value.
+	5 is an integer value.
 	
 2. Which of the following is a variable, and which is a string?
 
@@ -36,20 +36,20 @@ Answer:
 4. What is an expression made up of? What do all expressions do?
 
 Answer:
-	Expresions are made up of two or more varibales or values which have operations performed on them and made into a single result in return. 
+	Expressions are made up of two or more variables or values which have operations performed on them and made into a single result in return.
 
 
-	from this chapter i can conclude that :
-		~ expressions is used to compute a reuslt, manupulate data, building the code to do operation.
+	from this chapter I can conclude that :
+		~ expressions is used to compute a result, manipulate data, building the code to do operation.
 		
 5. This chapter introduced assignment statements, like spam = 10. What is the difference between an expression and a statement?
 
 Answer: 
-	|	Expression		|  	    statemants          |
+	|	Expression		|  	    statements          |
 	-----------------------------------------------------------------
-	| expression retuern a result   | it does not return any result |
+	| expression return a result   | it does not return any result |
 	-----------------------------------------------------------------
-	| expression should at least    | stements are instructions for |
+	| expression should at least    | statements are instructions   |
 	| have 1 operator and 2 values. | for the computer              |
 	-----------------------------------------------------------------
 	| (x+5)/2, 2*5  are             | spam = 10 is a statement where|
@@ -72,13 +72,13 @@ Answer:
 
 Answer:
  	both returns the same output.
- 	'spam' + 'spamspam' : combine both of the strings reuslting spamspamspam.
+ 	'spam' + 'spamspam' : combine both of the strings resulting spamspamspam.
  	'spam' * 3 : here the string is repeated 3 times resulting spamspamspam.
 
 8. Why is eggs a valid variable name while 100 is invalid?
  
 Answer:
-	eggs is a vaild variable name as it follows the rules for nameing a variable.
+	eggs is a valid variable name as it follows the rules for naming a variable.
 	100 is invalid cause variable name can't start with a number.
 
 9. What three functions can be used to get the integer, floating-point number, or string version of a value?

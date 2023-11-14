@@ -1,0 +1,79 @@
+1. Why are functions advantageous to have in your programs?
+
+Answer: 
+	Functions are used when you want to use a part of the code more than one time, basically avoiding duplication of code.
+	Its also helpful if there is a specific bug in that area of the code.
+
+2. When does the code in a function execute: when the function is defined or when the function is called?
+
+Answer: 
+	The code in a function will execute when the function is called.
+	
+3. What statement creates a function?
+
+Answer:
+	def creates a function, example  def odd():.
+	
+4. What is the difference between a function and a function call?
+
+Answer:
+	A function is a block of code that has some operations and statement with a name which you can call to execute this part of the program
+	it may have or have not an input parameter and a return value. function call is basically telling the program to execute the funtion with
+	the name which was called, it may or may not have an input parameter.
+	
+5. How many global scopes are there in a Python program? How many local scopes?
+
+Answer:
+	There is only one global scope in a code file. but local scopes can be as much as you want depending on the number of functions.
+	
+6. What happens to variables in a local scope when the function call returns?
+
+Answer:
+	it will get terminated and will be not accessible anymore.
+	 
+7. What is a return value? Can a return value be part of an expression?
+
+Answer:
+	Whatever is given back by the function after it is called. Yes you can return a part of expression like , return num/2.
+	
+8. If a function does not have a return statement, what is the return value of a call to that function?
+
+Answer:
+	None, it returns nothing when the function is called.
+	
+9. How can you force a variable in a function to refer to the global variable?
+
+Answer:
+	If you want to change the global variable from a funtion. then you need to call the variable with keyword global before them then you can change them. 
+	
+10. What is the data type of None?
+
+Answer:
+	None is a unique data type on its own.
+	
+11. What does the import areallyourpetsnamederic statement do?
+
+Answer:
+	It will import the module areallyourpetsnamederic which will enable us to use functions from that module. 
+
+	
+12. If you had a function named bacon() in a module named spam, how would you call it after importing spam?
+
+Answer:
+		import spam              from spam import bacon
+		                  or  
+		spam.bacon()             bacon()
+
+	
+13. How can you prevent a program from crashing when it gets an error?
+
+Answer:
+	We can use the try and except clause. where you can put the code in try and what to do if error comes inside the except clause.
+
+	
+14. What goes in the try clause? What goes in the except clause?
+
+Answer:
+	The code you want to execute will go inside the try clause and the error handling statements inside the except clause.
+	
+	
