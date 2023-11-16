@@ -1,0 +1,2 @@
+# About 
+I had already read this tasks beautiful soup part when doing the discord bot. either way this chapter was not hard nor simple just i didnt have time cuz of the assignments and lab exmas viva going on in class.

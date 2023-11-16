@@ -1,0 +1,124 @@
+1. What are the two values of the Boolean data type? How do you write them?
+
+Answer:
+	The two different type of boolean data types are True and False.
+	The naming is simple the T&F must be capital following with respective letters in smaller case.
+
+2. What are the three Boolean operators?
+
+Answer:
+	and, or, not are the three different boolean operators.
+
+3. Write out the truth tables of each Boolean operator (that is, every possible combination of Boolean values for the operator and what they evaluate to).
+
+Answer:
+	|         and         |        |          or          |      |      not      |
+	-----------------------        ------------------------      -----------------
+	| False | True  | False|       | False | True  | True |      | False | True  |
+	| False | False | False|       | False | False | False|      | True  | False |
+	| True  | True  | True |       | True  | True  | True |     
+	| True  | False | False|       | True  | False | True |
+	
+	
+4. What do the following expressions evaluate to?
+
+(5 > 4) and (3 == 5)
+not (5 > 4)
+(5 > 4) or (3 == 5)
+not ((5 > 4) or (3 == 5))
+(True and True) and (True == False)
+(not False) or (not True)
+
+Answer:
+	(5 > 4) and (3 == 5)                 : False.
+	not (5 > 4)                          : False.
+	(5 > 4) or (3 == 5)                  : True.
+	not ((5 > 4) or (3 == 5))            : False.
+	(True and True) and (True == False)  : False.
+	(not False) or (not True)            : True.
+	
+5. What are the six comparison operators?
+
+Answer:
+	== : Equal to
+	!= : Not Equal to 
+	<  : Less than
+	>  : Greater than
+	<= : Less than or Equal to
+	>= : Greater than or Equal to
+	
+6. What is the difference between the equal to operator and the assignment operator?
+
+Answer: 
+	== (equal to) checks weather the values in both sides are equal, if equal return True else return False.
+	= (assignment operator) assigns a value to a variable.
+	
+	
+7. Explain what a condition is and where you would use one.
+
+Answer:
+	Condition is basically True or False. It is used to control the program.
+	it is used in control flow, checking what user entered, loops.
+
+8. Identify the three blocks in this code:
+
+spam = 0
+if spam == 10:
+    print('eggs')
+    if spam > 5:
+        print('bacon')
+    else:
+        print('ham')
+    print('spam')
+print('spam')
+
+Answer:
+	The first block of code starts at the line      print('eggs')    till second last line.
+	Second block of code is single line             print('bacon').   
+	Third is also single block                      print('ham')
+	
+9. Write code that prints Hello if 1 is stored in spam,
+ prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.	
+
+Answer: 
+	code is attached separately in the same folder named 9.py
+	
+10. What keys can you press if your program is stuck in an infinite loop?
+	
+Answer: 
+	CTRL + C.
+
+11. What is the difference between break and continue?
+
+Answer: 
+	break    -  when break is encountered it will immediately exit from the loop.
+	continue -  when continue  is encountered it takes the loop to the start and next cycle begin.
+	
+12. What is the difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop?
+	
+Answer:
+	range(10)       - This creates a sequence of numbers from 0 to 9.
+	range(0, 10)    - This also creates a sequence of numbers from 0 to 9. it ahs starting value = 0 and ending value = 10.
+	range(0, 10, 1) - This also creates a sequence of numbers from 0 to 9. it ahs starting value = 0 and ending value = 10 with interval = 1.
+	
+13. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+
+Answer:
+	The codes are saved as for_13.py and while_13.py
+
+14. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+
+Answer:
+	Firstly                                import spam 
+	to call the function it's going to be like spam.bacon()
+	
+	
+
+
+
+
+
+
+
+	
+	

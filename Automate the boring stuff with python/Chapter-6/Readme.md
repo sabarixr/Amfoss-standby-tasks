@@ -1,0 +1,3 @@
+# About 
+
+This was a easy chapter with one confusing project. The table printer was easy but the second zombie dice was kinda hard for me i couldn't complete it as there was limited time and i was kinda confused about many things. Maybe because of anxiety or other things cuz the dead line was very short i couldn't wasn't able to understand the full code. i made some bots accoring to the rulls but idk how to make them work on the webGui. Had less time to search more about that. 

@@ -1,0 +1,94 @@
+1. Briefly describe the differences between the webbrowser, requests, bs4, and selenium modules.
+
+Answer:
+        webbrowser  : It is used to open a url
+        requests    : Sending request to HTTP to download things from the
+        bs4         : It is used for html scraping
+        selenium    : it is used to control a browser
+
+2. What type of object is returned by requests.get()? How can you access the downloaded content as a string value?
+
+Answer:
+        returns a Response object which has a text attribute which has a string that is the downloaded content.
+
+3. What requests method checks that the download worked?
+
+Answer:
+        raise_for_status() raises exception if something didnt work, in case of vise versa it does nothing
+
+4. How can you get the HTTP status code of a requests response?
+
+Answer:
+        The HTTP status code is contained in the status_code attribute of the Response object.
+
+5. How do you save a requests response to a file?
+
+Answer:
+        you need to open the file in wb mode and then write on it using for loop.
+
+6. What is the keyboard shortcut for opening a browser’s developer tools?
+
+Answer:
+        F12 key or ctrl + shift +c
+
+7. How can you view (in the developer tools) the HTML of a specific element on a web page?
+
+Answer:
+        RIght click the element and select inspect element.
+
+8. What is the CSS selector string that would find the element with an id attribute of main?
+
+Answer:
+        #main denotes id attribute of main
+
+9. What is the CSS selector string that would find the elements with a CSS class of highlight?
+
+Answer:
+        for class it will be : .highlight
+
+10. What is the CSS selector string that would find all the <div> elements inside another <div> element?
+
+Answer:
+        div  div
+
+11. What is the CSS selector string that would find the <button> element with a value attribute set to favorite?
+
+Answer:
+        button[value = "favorite"]
+
+12. Say you have a Beautiful Soup Tag object stored in the variable spam for the element <div>Hello, world!</div>. How could you get a string 'Hello, world!' from the Tag object?
+
+Answer:
+        spam.getText()
+
+13. How would you store all the attributes of a Beautiful Soup Tag object in a variable named linkElem?
+
+Answer:
+        linkElem.attrs
+
+14. Running import selenium doesn’t work. How do you properly import the selenium module?
+
+Answer:
+        from selenium import webdriver
+
+15. What’s the difference between the find_element_* and find_elements_* methods?
+
+Answer:
+        find_element_* methods return only first element of the matching element
+        find_elements_* methods returns a list of the matching element
+
+16. What methods do Selenium’s WebElement objects have for simulating mouse clicks and keyboard keys?
+
+Answer:
+        click() dor mouse  and send_keys() for keyboard
+
+
+17. You could call send_keys(Keys.ENTER) on the Submit button’s WebElement object, but what is an easier way to submit a form with selenium?
+
+Answer:
+        By using the submit() method
+
+18. How can you simulate clicking a browser’s Forward, Back, and Refresh buttons with selenium?
+
+Answer:
+        forward(), back(), and refresh() methods will do the trick
