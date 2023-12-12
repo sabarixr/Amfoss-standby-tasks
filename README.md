@@ -19,7 +19,11 @@ This tasks only problem was time due to having assignments viva lab exam.
 
 ## More about [me](https://github.com/sabarixr/amfoss-task)
 
-| **Task** | **Task Name**             | **Status**                   | **Link** |
-| -------- | ------------------------- | ---------------------------- | -------- |
+| **Task** | **Task Name**             | **Status**                   | 
+| -------- | ------------------------- | ---------------------------- | 
 | Intro    | Creating Github Respitory | Completed                    |
-| Task01   | Automate the boring stuff | almost 12 chapters completed |
+| Task01   | Automate the boring stuff | almost 12 chapters completed | 
+| Task02   | [Django To DO List](https://github.com/sabarixr/Task_2_django.git)| Completed (didnt had time to do the css properly)|
+| Task03   | [React notes app](https://github.com/sabarixr/react_fullstack.git)| Completed(Ecept for proper deletion)| 
+| Task04   | [Photo editor](https://github.com/sabarixr/Picture_editor.git)| Completed partially| 
+
